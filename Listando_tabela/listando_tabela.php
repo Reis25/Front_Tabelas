@@ -49,7 +49,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Listando tabela OPER</a>
+            <a class="navbar-brand" href="#">Listando tabela</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -77,7 +77,6 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nome</th>
-                    <th scope="col">Senha</th>
                     <th scope="col">Email</th>
                     <th scope="col">Telefone</th>
                     <th scope="col">Sexo</th>
@@ -94,7 +93,6 @@
                         echo "<tr>";
                         echo "<td>".$user_data['id']."</td>";
                         echo "<td>".$user_data['nome']."</td>";
-                        echo "<td>".$user_data['senha']."</td>";
                         echo "<td>".$user_data['email']."</td>";
                         echo "<td>".$user_data['telefone']."</td>";
                         echo "<td>".$user_data['sexo']."</td>";
